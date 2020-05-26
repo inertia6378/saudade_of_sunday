@@ -7,10 +7,10 @@ import {SettingsMenuComponent} from './components/settings-menu/settings-menu.co
 import {MaterialModule} from '../material/material.module';
 import {HomeComponent} from './components/home/home.component';
 import {RouterModule} from '@angular/router';
-import {DevOpsModule} from '../subjects/dev-ops/dev-ops.module';
-import {FrameworksModule} from '../subjects/frameworks/frameworks.module';
-import {LanguagesModule} from '../subjects/languages/languages.module';
-import {RuntimesModule} from '../subjects/runtimes/runtimes.module';
+import {DevOpsModule} from '../software-development-subjects/dev-ops/dev-ops.module';
+import {FrameworksModule} from '../software-development-subjects/frameworks/frameworks.module';
+import {LanguagesModule} from '../software-development-subjects/languages/languages.module';
+import {RuntimesModule} from '../software-development-subjects/runtimes/runtimes.module';
 import {ProjectsModule} from '../projects/projects.module';
 
 @NgModule({

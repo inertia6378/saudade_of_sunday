@@ -2,22 +2,23 @@
   <mat-expansion-panel class="left-nav-expansion-panel">
     <mat-expansion-panel-header>
       <mat-panel-title>
-        Subjects
+        Software Development Subjects
       </mat-panel-title>
     </mat-expansion-panel-header>
 
-    <mat-form-field>
-      <mat-form-field class = "container">
+    <mat-form-field class="container">
+      <mat-form-field class="container">
         <mat-icon>search</mat-icon>
         <input matInput (keyup)="applySubjectsFilter($event.target.value)" class="search-bar">
       </mat-form-field>
-      <table mat-table [dataSource]="subjectsDataSource" class="left-nav-subject-table mat-elevation-z8" color="primary">
+      <table mat-table [dataSource]="subjectsDataSource" class="left-nav-subject-table mat-elevation-z8"
+             color="primary">
 
         <!-- Name Column -->
-        <ng-container matColumnDef="name" class="left-nav-subject-row">
-          <th mat-header-cell *matHeaderCellDef>  </th>
-          <td mat-cell *matCellDef="let route">
-            <button mat-button color="accent" class="left-nav-button{" routerLink="{{route.url}}">{{route.url}}</button>
+        <ng-container matColumnDef="name" class="left-nav-subject-row container">
+          <th mat-header-cell *matHeaderCellDef></th>
+          <td mat-cell *matCellDef="let route" class="left-nav-subject-row">
+            <button mat-button color="accent" class="left-nav-button" routerLink="{{route.url}}">{{route.name}}</button>
           </td>
         </ng-container>
 
@@ -32,18 +33,20 @@
       </mat-panel-title>
     </mat-expansion-panel-header>
 
-    <mat-form-field>
-      <mat-form-field class = "container">
+    <mat-form-field class="container">
+      <mat-form-field class="container">
         <mat-icon>search</mat-icon>
         <input matInput (keyup)="applySubjectsFilter($event.target.value)" class="search-bar">
       </mat-form-field>
-      <table mat-table [dataSource]="projectsDataSource" class="left-nav-subject-table mat-elevation-z8" color="primary">
+      <table mat-table [dataSource]="projectsDataSource" class="left-nav-subject-table mat-elevation-z8"
+             color="primary">
 
         <!-- Name Column -->
         <ng-container matColumnDef="name" class="left-nav-subject-row">
-          <th mat-header-cell *matHeaderCellDef>  </th>
+          <th mat-header-cell *matHeaderCellDef></th>
           <td mat-cell *matCellDef="let route">
-            <button mat-button color="accent" class="left-nav-button{" routerLink="{{route.url}}">{{route.url}}</button>
+            <button mat-button color="accent" class="left-nav-button{"
+                    routerLink="{{route.url}}">{{route.name}}</button>
           </td>
         </ng-container>
 
@@ -58,8 +61,8 @@
       </mat-panel-title>
     </mat-expansion-panel-header>
 
-    <mat-form-field>
-      <mat-form-field class = "container">
+    <mat-form-field class="container">
+      <mat-form-field class="container">
         <mat-icon>search</mat-icon>
         <input matInput (keyup)="applySubjectsFilter($event.target.value)" class="search-bar">
       </mat-form-field>
@@ -67,9 +70,65 @@
 
         <!-- Name Column -->
         <ng-container matColumnDef="name" class="left-nav-subject-row">
-          <th mat-header-cell *matHeaderCellDef>  </th>
+          <th mat-header-cell *matHeaderCellDef></th>
           <td mat-cell *matCellDef="let route">
-            <button mat-button color="accent" class="left-nav-button{" routerLink="{{route.url}}">{{route.url}}</button>
+            <button mat-button color="accent" class="left-nav-button{"
+                    routerLink="{{route.url}}">{{route.name}}</button>
+          </td>
+        </ng-container>
+
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+    </mat-form-field>
+  </mat-expansion-panel>
+  <mat-expansion-panel class="left-nav-expansion-panel">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Drones
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+
+    <mat-form-field class="container">
+      <mat-form-field class="container">
+        <mat-icon>search</mat-icon>
+        <input matInput (keyup)="applySubjectsFilter($event.target.value)" class="search-bar">
+      </mat-form-field>
+      <table mat-table [dataSource]="dronesDataSource" class="left-nav-subject-table mat-elevation-z8" color="primary">
+
+        <!-- Name Column -->
+        <ng-container matColumnDef="name" class="left-nav-subject-row">
+          <th mat-header-cell *matHeaderCellDef></th>
+          <td mat-cell *matCellDef="let route">
+            <button mat-button color="accent" class="left-nav-button{"
+                    routerLink="{{route.url}}">{{route.name}}</button>
+          </td>
+        </ng-container>
+
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+    </mat-form-field>
+  </mat-expansion-panel>
+  <mat-expansion-panel class="left-nav-expansion-panel">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Ethical Hacking
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+
+    <mat-form-field class="container">
+      <mat-form-field class="container">
+        <mat-icon>search</mat-icon>
+        <input matInput (keyup)="applySubjectsFilter($event.target.value)" class="search-bar">
+      </mat-form-field>
+      <table mat-table [dataSource]="ethicalHackingDataSource" class="left-nav-subject-table mat-elevation-z8"
+             color="primary">
+
+        <!-- Name Column -->
+        <ng-container matColumnDef="name" class="left-nav-subject-row">
+          <th mat-header-cell *matHeaderCellDef></th>
+          <td mat-cell *matCellDef="let route">
+            <button mat-button color="accent" class="left-nav-button{"
+                    routerLink="{{route.url}}">{{route.name}}</button>
           </td>
         </ng-container>
 

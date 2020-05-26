@@ -13,12 +13,16 @@ export class LeftNavComponent implements OnInit {
   subjects: RouterLink[];
   projects: RouterLink[];
   courses: RouterLink[];
+  drones: RouterLink[];
+  ethicalHacking: RouterLink[];
 
   displayedColumns: string[] = ['name'];
 
   subjectsDataSource = new MatTableDataSource(this.leftNavService.getleftNavSubjects());
   projectsDataSource = new MatTableDataSource(this.leftNavService.getleftNavProjects());
   coursesDataSource = new MatTableDataSource(this.leftNavService.getleftNavProjects());
+  dronesDataSource = new MatTableDataSource(this.leftNavService.getleftNavProjects());
+  ethicalHackingDataSource = new MatTableDataSource(this.leftNavService.getleftNavProjects());
 
   applySubjectsFilter(filterValue: string) {
     this.subjectsDataSource.filter = filterValue.trim().toLowerCase();
@@ -31,6 +35,8 @@ export class LeftNavComponent implements OnInit {
     this.subjects = this.leftNavService.getleftNavSubjects();
     this.projects = this.leftNavService.getleftNavProjects();
     this.courses = this.leftNavService.getleftNavCourses();
+    this.drones = this.leftNavService.getDrones();
+    this.ethicalHacking = this.leftNavService.getEthicalHacking();
   }
 
 }
