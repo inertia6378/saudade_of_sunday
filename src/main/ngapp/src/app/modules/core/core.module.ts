@@ -12,6 +12,8 @@ import {FrameworksModule} from '../software-development-subjects/frameworks/fram
 import {LanguagesModule} from '../software-development-subjects/languages/languages.module';
 import {RuntimesModule} from '../software-development-subjects/runtimes/runtimes.module';
 import {ProjectsModule} from '../projects/projects.module';
+import {DronesModule} from '../drones/drones.module';
+import {EthicalHackingModule} from '../ethical-hacking/ethical-hacking.module';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import {ProjectsModule} from '../projects/projects.module';
     FrameworksModule,
     LanguagesModule,
     RuntimesModule,
-    ProjectsModule
+    ProjectsModule,
+    DronesModule,
+    EthicalHackingModule
   ],
   exports: [
     LeftNavComponent,

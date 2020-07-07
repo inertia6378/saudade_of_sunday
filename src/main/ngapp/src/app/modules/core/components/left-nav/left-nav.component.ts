@@ -20,9 +20,9 @@ export class LeftNavComponent implements OnInit {
 
   subjectsDataSource = new MatTableDataSource(this.leftNavService.getleftNavSubjects());
   projectsDataSource = new MatTableDataSource(this.leftNavService.getleftNavProjects());
-  coursesDataSource = new MatTableDataSource(this.leftNavService.getleftNavProjects());
-  dronesDataSource = new MatTableDataSource(this.leftNavService.getleftNavProjects());
-  ethicalHackingDataSource = new MatTableDataSource(this.leftNavService.getleftNavProjects());
+  coursesDataSource = new MatTableDataSource(this.leftNavService.getleftNavCourses());
+  dronesDataSource = new MatTableDataSource(this.leftNavService.getDrones());
+  ethicalHackingDataSource = new MatTableDataSource(this.leftNavService.getEthicalHacking());
 
   applySubjectsFilter(filterValue: string) {
     this.subjectsDataSource.filter = filterValue.trim().toLowerCase();

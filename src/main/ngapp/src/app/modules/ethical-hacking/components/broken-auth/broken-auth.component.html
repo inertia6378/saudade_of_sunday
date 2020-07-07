@@ -1,0 +1,49 @@
+<h1>Broken Authorization</h1>
+<div class="container">
+  <div class="half">
+    <p>
+      Broken Authorization is when an applications functionality is broken or weak and attackers are able to bypass the
+      authentication using session token flaws, brute forcing, no rate-limiting, password compromising using response
+      manipulation or any other flaws which can give an attacker temporary or permanent access to the users identity.
+    </p>
+  </div>
+  <div class="quarter">
+    <h2>Examples</h2>
+    <ul>
+      <li>OTP Bypass</li>
+      <li>Captcha Bypass</li>
+      <li>Common Passwords BruteForce</li>
+      <li>2FA Bypass</li>
+    </ul>
+  </div>
+  <div class="quarter">
+    <h2>Causes</h2>
+    <ul>
+      <li>Manipulated Response is interpreted by the application</li>
+      <li>No Rate Limit</li>
+      <li>Lack of Session Management</li>
+    </ul>
+  </div>
+</div>
+<div class="container">
+  <div class="quarter">
+    <h2>What Can Be Achieved</h2>
+    <ul>
+      <li>Temporary/Permanent Account Take Over</li>
+      <li>Modification of key user details</li>
+      <li>Usage of account to perform more malicious hacks</li>
+    </ul>
+  </div>
+  <div class="quarter">
+    <h2>How to Fix/Prevent BA Issues</h2>
+    <ul>
+      <li>String Auth(JWT,SAML,OAuth)</li>
+      <li>Credential limits to ensure strength</li>
+      <li>Limit the Rate of interaction</li>
+      <li>Using Server side session management</li>
+    </ul>
+  </div>
+  <div class="half">
+    <img src="assets/img/lock.png">
+  </div>
+</div>

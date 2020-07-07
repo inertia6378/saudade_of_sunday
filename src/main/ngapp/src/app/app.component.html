@@ -5,11 +5,8 @@
               [opened]="!isScreenSmall()">
       <app-left-nav></app-left-nav>
   </mat-drawer>
-  <mat-drawer-content color="accent">
-    <mat-card class="main-content example-card" color="accent">
-      <mat-card-header>
-        <div mat-card-avatar class="example-header-image"></div>
-      </mat-card-header>
+  <mat-drawer-content color="accent" class="container">
+    <mat-card class="main-content card" color="accent">
       <mat-card-content>
         <router-outlet></router-outlet>
       </mat-card-content>

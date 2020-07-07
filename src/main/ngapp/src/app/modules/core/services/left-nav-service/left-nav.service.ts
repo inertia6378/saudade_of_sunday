@@ -1,8 +1,12 @@
 import {Injectable, OnInit} from '@angular/core';
 import {RouterLink} from '../../models/router-link';
 import {HomeComponent} from '../../components/home/home.component';
-import {Route, Router, Routes} from '@angular/router';
+import {Routes} from '@angular/router';
 import {NodeJsComponent} from '../../../software-development-subjects/runtimes/components/node-js/node-js.component';
+import {OwaspComponent} from '../../../ethical-hacking/components/owasp/owasp.component';
+import {InjectionComponent} from '../../../ethical-hacking/components/injection/injection.component';
+import {BrokenAuthComponent} from '../../../ethical-hacking/components/broken-auth/broken-auth.component';
+import {SensitiveDataExposureComponent} from '../../../ethical-hacking/components/sensitive-data-exposure/sensitive-data-exposure.component';
 
 @Injectable({
   providedIn: 'root'
@@ -14,6 +18,14 @@ export class LeftNavService implements OnInit {
     {path: 'NodeJs', component: NodeJsComponent},
     // Projects---------------------------------------------------------------------------------------------------------
     // Courses----------------------------------------------------------------------------------------------------------
+    // Drones-----------------------------------------------------------------------------------------------------------
+    // Ethical Hacking--------------------------------------------------------------------------------------------------
+    {path: 'OWASP', component: OwaspComponent},
+    {path: 'Injection', component: InjectionComponent},
+    {path: 'BrokenAuth', component: BrokenAuthComponent},
+    {path: 'SensitiveDataExposure', component: SensitiveDataExposureComponent},
+    // -----------------------------------------------------------------------------------------------------------------
+    {path: '**', redirectTo: 'Home'}
   ];
 
   constructor() {
@@ -48,14 +60,7 @@ const subjectNavRoutes: RouterLink[] = [
     id: 0,
     name: 'NodeJs',
     url: 'NodeJs',
-    iconUrl: '',
-    component: HomeComponent
-  },
-  {
-    id: 0,
-    name: 'Extra Extra Long Button',
-    url: 'NodeJs',
-    iconUrl: '',
+    iconUrl: 'src/main/ngapp/src/assets/img/nodeIcon.png',
     component: HomeComponent
   }
 ];
@@ -70,5 +75,34 @@ const dronesNavRoutes: RouterLink[] = [
 ];
 
 const ethicalHackingNavRoutes: RouterLink[] = [
+  {
+    id: 1,
+    name: 'OWASP',
+    url: 'OWASP',
+    iconUrl: '',
+    component: OwaspComponent
+  },
+  {
+    id: 2,
+    name: 'Injection',
+    url: 'Injection',
+    iconUrl: '',
+    component: InjectionComponent
+  },
+  {
+    id: 3,
+    name: 'BrokenAuth',
+    url: 'BrokenAuth',
+    iconUrl: '',
+    component: BrokenAuthComponent
+  }
+  ,
+  {
+    id: 4,
+    name: 'Sensitive Data Exposure',
+    url: 'SensitiveDataExposure',
+    iconUrl: '',
+    component: SensitiveDataExposureComponent
+  }
 ];
 

@@ -2,24 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26d18f45-ad97-4588-af5c-649980606fe8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/components/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/components/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/components/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/components/home/home.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/components/left-nav/left-nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/components/left-nav/left-nav.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/components/left-nav/left-nav.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/components/left-nav/left-nav.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/components/left-nav/left-nav.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/components/left-nav/left-nav.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/core.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/core.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/services/left-nav-service/left-nav.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/services/left-nav-service/left-nav.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/subjects/dev-ops/dev-ops.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/dev-ops/dev-ops.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/subjects/frameworks/frameworks.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/frameworks/frameworks.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/subjects/languages/languages.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/languages/languages.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/subjects/runtimes/components/node-js/node-js.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/runtimes/components/node-js/node-js.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/subjects/runtimes/components/node-js/node-js.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/runtimes/components/node-js/node-js.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/subjects/runtimes/components/node-js/node-js.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/runtimes/components/node-js/node-js.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/subjects/runtimes/components/node-js/node-js.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/runtimes/components/node-js/node-js.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/subjects/runtimes/runtimes.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/runtimes/runtimes.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/ethical-hacking/ethical-hacking.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/ethical-hacking/ethical-hacking.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/runtimes/components/node-js/node-js.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/runtimes/components/node-js/node-js.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/runtimes/components/node-js/node-js.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/runtimes/components/node-js/node-js.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/assets/img/node.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/assets/img/node.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,7 +48,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/ngapp/src/app/modules/projects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/ngapp/src/app/modules/drones" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -49,16 +59,18 @@
     <property name="ts.external.directory.path" value="C:\Users\panda\Git\inertia6378\saudade_of_sunday\src\main\ngapp\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\panda\Git\inertia6378\saudade_of_sunday\src\main\ngapp\src\app\modules\core\services\left-nav-service" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\panda\Git\inertia6378\saudade_of_sunday\src\main\ngapp\src\app\modules\drones" />
+      <recent name="C:\Users\panda\Git\inertia6378\saudade_of_sunday\src\main\ngapp\src\app\modules\ethical-hacking" />
+      <recent name="C:\Users\panda\Git\inertia6378\saudade_of_sunday\src\main\ngapp\src\app\modules\projects" />
+      <recent name="C:\Users\panda\Git\inertia6378\saudade_of_sunday\src\main\ngapp\src\app\modules\subjects\runtimes" />
+      <recent name="C:\Users\panda\Git\inertia6378\saudade_of_sunday\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="inertia" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\panda\Git\inertia6378\saudade_of_sunday\src\main\ngapp\src\app\modules\projects" />
-      <recent name="C:\Users\panda\Git\inertia6378\saudade_of_sunday\src\main\ngapp\src\app\modules\subjects\runtimes" />
-      <recent name="C:\Users\panda\Git\inertia6378\saudade_of_sunday\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\panda\Git\inertia6378\saudade_of_sunday\src\main\ngapp\src\app\modules\core\services\left-nav-service" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
@@ -138,7 +150,21 @@
       <workItem from="1590297646321" duration="642000" />
       <workItem from="1590385183471" duration="338000" />
       <workItem from="1590515064696" duration="1260000" />
-      <workItem from="1590522615589" duration="3157000" />
+      <workItem from="1590522615589" duration="4780000" />
+      <workItem from="1590530373683" duration="4729000" />
+      <workItem from="1590596348623" duration="1206000" />
+      <workItem from="1590609581292" duration="2267000" />
+      <workItem from="1590726142445" duration="292000" />
+      <workItem from="1591070560460" duration="2695000" />
+      <workItem from="1591152308890" duration="2782000" />
+      <workItem from="1591218710935" duration="1198000" />
+      <workItem from="1591306486954" duration="6522000" />
+      <workItem from="1591998316008" duration="3586000" />
+      <workItem from="1592859969435" duration="599000" />
+      <workItem from="1592937374781" duration="471000" />
+      <workItem from="1593549104588" duration="70000" />
+      <workItem from="1593549201264" duration="1559000" />
+      <workItem from="1594157037881" duration="2747000" />
     </task>
     <servers />
   </component>
@@ -154,10 +180,11 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="960" y="455" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/2560.-419.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1587754086998" />
-    <state x="1061" y="414" key="FileChooserDialogImpl" timestamp="1590188738474">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="-1499" y="553" key="FileChooserDialogImpl" timestamp="1593549118673">
+      <screen x="-2560" y="139" width="2560" height="1440" />
     </state>
-    <state x="1061" y="414" key="FileChooserDialogImpl/2560.-419.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1590188738474" />
+    <state x="-1499" y="553" key="FileChooserDialogImpl/0.0.2560.1440/-2560.139.2560.1440@-2560.139.2560.1440" timestamp="1593549118673" />
+    <state x="1061" y="414" key="FileChooserDialogImpl/2560.-419.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1590602745961" />
     <state x="3621" y="-5" key="FileChooserDialogImpl/2560.-419.2560.1440/0.0.2560.1440@2560.-419.2560.1440" timestamp="1587763174107" />
     <state width="2507" height="404" key="GridCell.Tab.0.bottom" timestamp="1588029406044">
       <screen x="0" y="0" width="2560" height="1440" />
@@ -195,26 +222,24 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="2507" height="404" key="GridCell.Tab.1.right/2560.-419.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1588029406044" />
-    <state x="955" y="425" key="NewModule_or_Project.wizard" timestamp="1590188740694">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="-1605" y="564" key="NewModule_or_Project.wizard" timestamp="1593549120473">
+      <screen x="-2560" y="139" width="2560" height="1440" />
     </state>
-    <state x="955" y="425" key="NewModule_or_Project.wizard/2560.-419.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1590188740694" />
+    <state x="-1605" y="564" key="NewModule_or_Project.wizard/0.0.2560.1440/-2560.139.2560.1440@-2560.139.2560.1440" timestamp="1593549120473" />
+    <state x="955" y="425" key="NewModule_or_Project.wizard/2560.-419.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1590602747714" />
     <state x="3515" y="6" key="NewModule_or_Project.wizard/2560.-419.2560.1440/0.0.2560.1440@2560.-419.2560.1440" timestamp="1587763176677" />
     <state x="781" y="364" key="SettingsEditor" timestamp="1588798532610">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="781" y="364" key="SettingsEditor/2560.-419.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1588798532610" />
-    <state x="983" y="274" width="593" height="891" key="find.popup" timestamp="1588890153505">
+    <state x="983" y="274" width="593" height="891" key="find.popup" timestamp="1591330104978">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state x="983" y="274" width="593" height="891" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1591330104978" />
     <state x="983" y="274" width="593" height="891" key="find.popup/2560.-419.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1588890153505" />
     <state x="612" y="373" key="new project wizard" timestamp="1590187784130">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="612" y="373" key="new project wizard/2560.-419.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1590187784130" />
-    <state x="4776" y="340" key="run.anything.popup" timestamp="1584646487636">
-      <screen x="3840" y="0" width="2560" height="1440" />
-    </state>
-    <state x="4776" y="340" key="run.anything.popup/0.0.2560.1440/3840.0.2560.1440@3840.0.2560.1440" timestamp="1584646487636" />
   </component>
 </project>
