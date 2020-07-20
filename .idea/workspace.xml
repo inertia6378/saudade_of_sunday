@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26d18f45-ad97-4588-af5c-649980606fe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/app.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/components/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/components/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/components/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/components/home/home.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/components/left-nav/left-nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/components/left-nav/left-nav.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/components/left-nav/left-nav.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/components/left-nav/left-nav.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/components/left-nav/left-nav.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/components/left-nav/left-nav.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/core.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/core.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/services/left-nav-service/left-nav.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/services/left-nav-service/left-nav.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/ethical-hacking/ethical-hacking.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/ethical-hacking/ethical-hacking.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/runtimes/components/node-js/node-js.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/runtimes/components/node-js/node-js.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ngapp/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ngapp/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ngapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/material/material.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/material/material.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/runtimes/components/node-js/node-js.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/runtimes/components/node-js/node-js.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/assets/img/node.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/assets/img/node.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,19 +36,21 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/ngapp/src/app/modules/drones" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="C:\Users\panda\Git\inertia6378\saudade_of_sunday\src\main\ngapp\node_modules\typescript\lib" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="C:\Users\panda\GIt\pharms2011\saudade_of_sunday\src\main\ngapp\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -165,6 +159,11 @@
       <workItem from="1593549104588" duration="70000" />
       <workItem from="1593549201264" duration="1559000" />
       <workItem from="1594157037881" duration="2747000" />
+      <workItem from="1594943798485" duration="96000" />
+      <workItem from="1595023094052" duration="824000" />
+      <workItem from="1595028132978" duration="3034000" />
+      <workItem from="1595259417356" duration="3531000" />
+      <workItem from="1595267268197" duration="661000" />
     </task>
     <servers />
   </component>
@@ -180,30 +179,39 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="960" y="455" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/2560.-419.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1587754086998" />
-    <state x="-1499" y="553" key="FileChooserDialogImpl" timestamp="1593549118673">
-      <screen x="-2560" y="139" width="2560" height="1440" />
+    <state x="-1499" y="1114" key="FileChooserDialogImpl" timestamp="1595030922761">
+      <screen x="-2560" y="700" width="2560" height="1440" />
     </state>
     <state x="-1499" y="553" key="FileChooserDialogImpl/0.0.2560.1440/-2560.139.2560.1440@-2560.139.2560.1440" timestamp="1593549118673" />
+    <state x="-1499" y="1114" key="FileChooserDialogImpl/0.0.2560.1440/-2560.700.2560.1440@-2560.700.2560.1440" timestamp="1595030922761" />
     <state x="1061" y="414" key="FileChooserDialogImpl/2560.-419.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1590602745961" />
     <state x="3621" y="-5" key="FileChooserDialogImpl/2560.-419.2560.1440/0.0.2560.1440@2560.-419.2560.1440" timestamp="1587763174107" />
-    <state width="2507" height="404" key="GridCell.Tab.0.bottom" timestamp="1588029406044">
+    <state width="2507" height="409" key="GridCell.Tab.0.bottom" timestamp="1595259375175">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state width="2507" height="409" key="GridCell.Tab.0.bottom/0.0.2560.1440/-2560.700.2560.1440@-2560.700.2560.1440" timestamp="1595030684549" />
+    <state width="2507" height="409" key="GridCell.Tab.0.bottom/0.0.2560.1440/-2560.700.2560.1440@0.0.2560.1440" timestamp="1595259375175" />
     <state width="2507" height="404" key="GridCell.Tab.0.bottom/2560.-419.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1588029406044" />
     <state width="2521" height="406" key="GridCell.Tab.0.bottom/2560.-419.2560.1440/0.0.2560.1440@2560.-419.2560.1440" timestamp="1587763465258" />
-    <state width="2507" height="404" key="GridCell.Tab.0.center" timestamp="1588029406044">
+    <state width="2507" height="409" key="GridCell.Tab.0.center" timestamp="1595259375174">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state width="2507" height="409" key="GridCell.Tab.0.center/0.0.2560.1440/-2560.700.2560.1440@-2560.700.2560.1440" timestamp="1595030684549" />
+    <state width="2507" height="409" key="GridCell.Tab.0.center/0.0.2560.1440/-2560.700.2560.1440@0.0.2560.1440" timestamp="1595259375174" />
     <state width="2507" height="404" key="GridCell.Tab.0.center/2560.-419.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1588029406044" />
     <state width="2521" height="406" key="GridCell.Tab.0.center/2560.-419.2560.1440/0.0.2560.1440@2560.-419.2560.1440" timestamp="1587763465257" />
-    <state width="2507" height="404" key="GridCell.Tab.0.left" timestamp="1588029406044">
+    <state width="2507" height="409" key="GridCell.Tab.0.left" timestamp="1595259375174">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state width="2507" height="409" key="GridCell.Tab.0.left/0.0.2560.1440/-2560.700.2560.1440@-2560.700.2560.1440" timestamp="1595030684549" />
+    <state width="2507" height="409" key="GridCell.Tab.0.left/0.0.2560.1440/-2560.700.2560.1440@0.0.2560.1440" timestamp="1595259375174" />
     <state width="2507" height="404" key="GridCell.Tab.0.left/2560.-419.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1588029406044" />
     <state width="2521" height="406" key="GridCell.Tab.0.left/2560.-419.2560.1440/0.0.2560.1440@2560.-419.2560.1440" timestamp="1587763465257" />
-    <state width="2507" height="404" key="GridCell.Tab.0.right" timestamp="1588029406044">
+    <state width="2507" height="409" key="GridCell.Tab.0.right" timestamp="1595259375175">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state width="2507" height="409" key="GridCell.Tab.0.right/0.0.2560.1440/-2560.700.2560.1440@-2560.700.2560.1440" timestamp="1595030684549" />
+    <state width="2507" height="409" key="GridCell.Tab.0.right/0.0.2560.1440/-2560.700.2560.1440@0.0.2560.1440" timestamp="1595259375175" />
     <state width="2507" height="404" key="GridCell.Tab.0.right/2560.-419.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1588029406044" />
     <state width="2521" height="406" key="GridCell.Tab.0.right/2560.-419.2560.1440/0.0.2560.1440@2560.-419.2560.1440" timestamp="1587763465257" />
     <state width="2507" height="404" key="GridCell.Tab.1.bottom" timestamp="1588029406044">
@@ -222,15 +230,17 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="2507" height="404" key="GridCell.Tab.1.right/2560.-419.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1588029406044" />
-    <state x="-1605" y="564" key="NewModule_or_Project.wizard" timestamp="1593549120473">
-      <screen x="-2560" y="139" width="2560" height="1440" />
+    <state x="-1605" y="1125" key="NewModule_or_Project.wizard" timestamp="1595030927188">
+      <screen x="-2560" y="700" width="2560" height="1440" />
     </state>
     <state x="-1605" y="564" key="NewModule_or_Project.wizard/0.0.2560.1440/-2560.139.2560.1440@-2560.139.2560.1440" timestamp="1593549120473" />
+    <state x="-1605" y="1125" key="NewModule_or_Project.wizard/0.0.2560.1440/-2560.700.2560.1440@-2560.700.2560.1440" timestamp="1595030927188" />
     <state x="955" y="425" key="NewModule_or_Project.wizard/2560.-419.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1590602747714" />
     <state x="3515" y="6" key="NewModule_or_Project.wizard/2560.-419.2560.1440/0.0.2560.1440@2560.-419.2560.1440" timestamp="1587763176677" />
-    <state x="781" y="364" key="SettingsEditor" timestamp="1588798532610">
+    <state x="781" y="364" key="SettingsEditor" timestamp="1594943893677">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state x="781" y="364" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1594943893677" />
     <state x="781" y="364" key="SettingsEditor/2560.-419.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1588798532610" />
     <state x="983" y="274" width="593" height="891" key="find.popup" timestamp="1591330104978">
       <screen x="0" y="0" width="2560" height="1440" />
