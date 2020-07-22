@@ -6,7 +6,9 @@ import {NodeJsComponent} from '../../../software-development-subjects/runtimes/c
 import {OwaspComponent} from '../../../ethical-hacking/components/owasp/owasp.component';
 import {InjectionComponent} from '../../../ethical-hacking/components/injection/injection.component';
 import {BrokenAuthComponent} from '../../../ethical-hacking/components/broken-auth/broken-auth.component';
+// tslint:disable-next-line:max-line-length
 import {SensitiveDataExposureComponent} from '../../../ethical-hacking/components/sensitive-data-exposure/sensitive-data-exposure.component';
+import {PythonComponent} from '../../../software-development-subjects/languages/components/python/python.component';
 
 @Injectable({
   providedIn: 'root'
@@ -16,6 +18,7 @@ export class LeftNavService implements OnInit {
     {path: 'Home', component: HomeComponent},
     // Software Development Subjects------------------------------------------------------------------------------------
     {path: 'NodeJs', component: NodeJsComponent},
+    {path: 'Python', component: PythonComponent},
     // Projects---------------------------------------------------------------------------------------------------------
     // Courses----------------------------------------------------------------------------------------------------------
     // Drones-----------------------------------------------------------------------------------------------------------
@@ -62,6 +65,13 @@ const subjectNavRoutes: RouterLink[] = [
     url: 'NodeJs',
     iconUrl: 'src/main/ngapp/src/assets/img/nodeIcon.png',
     component: HomeComponent
+  },
+  {
+    id: 0,
+    name: 'Python',
+    url: 'Python',
+    iconUrl: 'src/main/ngapp/src/assets/img/nodeIcon.png',
+    component: PythonComponent
   }
 ];
 

@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="26d18f45-ad97-4588-af5c-649980606fe8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/material/material.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/material/material.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/runtimes/components/node-js/node-js.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/runtimes/components/node-js/node-js.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/services/left-nav-service/left-nav.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/services/left-nav-service/left-nav.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/languages/languages.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/languages/languages.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,18 +48,19 @@
     <property name="ts.external.directory.path" value="C:\Users\panda\GIt\pharms2011\saudade_of_sunday\src\main\ngapp\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\panda\GIt\pharms2011\saudade_of_sunday\src\main\ngapp\src\app\modules\software-development-subjects\languages\components" />
+      <recent name="C:\Users\panda\Git\inertia6378\saudade_of_sunday\src\main\ngapp\src\app\modules\core\services\left-nav-service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="inertia" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\panda\Git\inertia6378\saudade_of_sunday\src\main\ngapp\src\app\modules\drones" />
       <recent name="C:\Users\panda\Git\inertia6378\saudade_of_sunday\src\main\ngapp\src\app\modules\ethical-hacking" />
       <recent name="C:\Users\panda\Git\inertia6378\saudade_of_sunday\src\main\ngapp\src\app\modules\projects" />
       <recent name="C:\Users\panda\Git\inertia6378\saudade_of_sunday\src\main\ngapp\src\app\modules\subjects\runtimes" />
       <recent name="C:\Users\panda\Git\inertia6378\saudade_of_sunday\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="inertia" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\panda\Git\inertia6378\saudade_of_sunday\src\main\ngapp\src\app\modules\core\services\left-nav-service" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
@@ -163,7 +159,8 @@
       <workItem from="1595023094052" duration="824000" />
       <workItem from="1595028132978" duration="3034000" />
       <workItem from="1595259417356" duration="3531000" />
-      <workItem from="1595267268197" duration="661000" />
+      <workItem from="1595267268197" duration="2445000" />
+      <workItem from="1595388757511" duration="1541000" />
     </task>
     <servers />
   </component>
