@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="26d18f45-ad97-4588-af5c-649980606fe8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/services/left-nav-service/left-nav.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/core/services/left-nav-service/left-nav.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/languages/languages.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/languages/languages.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/languages/components/python/python.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/languages/components/python/python.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/languages/components/python/python.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ngapp/src/app/modules/software-development-subjects/languages/components/python/python.component.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +160,9 @@
       <workItem from="1595028132978" duration="3034000" />
       <workItem from="1595259417356" duration="3531000" />
       <workItem from="1595267268197" duration="2445000" />
-      <workItem from="1595388757511" duration="1541000" />
+      <workItem from="1595388757511" duration="1785000" />
+      <workItem from="1595440663135" duration="11136000" />
+      <workItem from="1595543200988" duration="3721000" />
     </task>
     <servers />
   </component>
